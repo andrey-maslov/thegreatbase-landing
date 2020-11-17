@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63.372" height="90.998" viewBox="0 0 63.372 90.998">
+  <g id="air_balloon" transform="translate(-77.721)">
+    <path id="Path_689" data-name="Path 689" d="M256,0h0Z" transform="translate(-146.593)" fill="none"/>
+    <g id="Group_157" data-name="Group 157" transform="translate(77.721)">
+      <path id="Path_690" data-name="Path 690" d="M248.434,450.29V436.952H235.985l3.557,13.338Z" transform="translate(-207.857 -359.292)" fill="#04303e"/>
+      <path id="Path_691" data-name="Path 691" d="M205.972,436.952h8.892V450.29h-8.892Z" transform="translate(-183.178 -359.292)" fill="#07485e"/>
+      <path id="Path_692" data-name="Path 692" d="M211.57,362.9l-5.6,3.557v9.6h5.6Z" transform="translate(-183.178 -298.405)" fill="#ebebf0"/>
+      <path id="Path_693" data-name="Path 693" d="M280.129,366.462l-5.6-3.557v13.16h5.6Z" transform="translate(-239.552 -298.405)" fill="#cde1e6"/>
+      <path id="Path_694" data-name="Path 694" d="M285.07,19.189A31.174,31.174,0,0,0,256,0c13.478,0,3.293,68.057,3.293,68.057h5.6l13.957-14.6a31.174,31.174,0,0,0,6.22-34.271Z" transform="translate(-224.315)" fill="#a23310"/>
+      <path id="Path_695" data-name="Path 695" d="M109.407,0A31.174,31.174,0,0,0,80.337,19.189,31.174,31.174,0,0,0,86.558,53.46l13.957,14.6h5.6S95.928,0,109.407,0Z" transform="translate(-77.721)" fill="#f96332"/>
+      <path id="Path_696" data-name="Path 696" d="M250.611,51.795C259.926,32.311,253.021,0,239.542,0l-3.557,35.724,3.557,32.333h3.294Z" transform="translate(-207.857)" fill="#ebebf0"/>
+      <path id="Path_697" data-name="Path 697" d="M185.009,0c-13.478,0-20.383,32.311-11.068,51.795l7.775,16.262h3.294Z" transform="translate(-153.324)" fill="#fff5f5"/>
+      <path id="Path_698" data-name="Path 698" d="M262,421.952h-14.23l-1.779,2.666,1.779,2.666H262Z" transform="translate(-216.086 -346.958)" fill="#07485e"/>
+      <path id="Path_699" data-name="Path 699" d="M175.936,421.952h14.23v5.332h-14.23Z" transform="translate(-158.48 -346.958)" fill="#09607d"/>
+    </g>
+  </g>
+</svg>

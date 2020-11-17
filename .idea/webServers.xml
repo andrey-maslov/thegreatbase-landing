@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cbdee14e-9fc0-4f40-9827-de946e57f36e" name="nobugs.today">
+        <fileTransfer rootFolder="/var/www/thegreatbase.nobugs.today/current" accessType="SFTP" host="64.225.69.201" port="22" sshConfigId="9b6a666d-4474-492e-b7d4-d459bd6ec929" sshConfig="android69@64.225.69.201:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

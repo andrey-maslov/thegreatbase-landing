@@ -1,0 +1,15 @@
+<svg id="aircraft" xmlns="http://www.w3.org/2000/svg" width="91.415" height="91.415" viewBox="0 0 91.415 91.415">
+  <path id="Path_851" data-name="Path 851" d="M0,0H18.763V5.357H0Z" transform="translate(63.774 23.85) rotate(-45)" fill="#04303e"/>
+  <path id="Path_852" data-name="Path 852" d="M343.42,146.808l3.791-3.791-9.475-9.475-8.845,3.791Z" transform="translate(-270.165 -109.697)" fill="#ebebf0"/>
+  <path id="Path_853" data-name="Path 853" d="M316.505,154.772l-8.845,3.791,14.53,9.475,3.791-3.791Z" transform="translate(-252.725 -127.136)" fill="#cde1e6"/>
+  <path id="Path_854" data-name="Path 854" d="M317.4,89.95l-9.475-9.475-3.791,3.791,6.948,12Z" transform="translate(-249.826 -66.106)" fill="#fff5f5"/>
+  <path id="Path_855" data-name="Path 855" d="M296.166,111.18l-9.475-9.475L282.9,105.5l6.948,12Z" transform="translate(-232.386 -83.545)" fill="#ebebf0"/>
+  <path id="Path_856" data-name="Path 856" d="M403.463,91.081l-3.157.63-.63,3.157,13.268,13.268,3.788-3.788Z" transform="translate(-328.31 -74.818)" fill="#04303e"/>
+  <path id="Path_857" data-name="Path 857" d="M0,0H5.357V18.763H0Z" transform="translate(58.09 6.79) rotate(-45)" fill="#07485e"/>
+  <path id="Path_858" data-name="Path 858" d="M126.632,406.6l-10.08-10.08L130.97,383.7l6.555,12.01Z" transform="translate(-95.741 -315.187)" fill="#a23310"/>
+  <path id="Path_859" data-name="Path 859" d="M10.08,298.931,0,288.851l10.893-10.893,12.01,6.555Z" transform="translate(0 -228.327)" fill="#fc8965"/>
+  <path id="Path_860" data-name="Path 860" d="M246.249,260.405l19.81-20.713L293.7,267.327l-13.59,13.59Z" transform="translate(-202.28 -196.893)" fill="#a23310"/>
+  <path id="Path_861" data-name="Path 861" d="M61.907,47.446,41.395,13.59,54.985,0,82.62,27.635Z" transform="translate(-34.004)" fill="#fc8965"/>
+  <path id="Path_862" data-name="Path 862" d="M86.5,220.545l5.365,5.366L117.931,208l.2-.139,22.388-22.388L131.046,176l-21.9,16.847Z" transform="translate(-71.057 -144.576)" fill="#bb664b"/>
+  <path id="Path_863" data-name="Path 863" d="M96.886,122.935,74.5,145.322,56.452,171.588l5.366,5.366,44.543-44.543Z" transform="translate(-46.372 -100.984)" fill="#f96332"/>
+</svg>

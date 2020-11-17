@@ -1,0 +1,36 @@
+@import '_vars.scss';
+
+input, textarea {
+  outline: none;
+  &:focus:required:invalid { border-color: red }
+  &:required:valid { border-color: green }
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-control {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+  height: 56px;
+  border-color: #e3e9f6;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  //height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #7f84b1;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced0e1;
+  border-radius: .25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}

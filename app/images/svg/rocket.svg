@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63.116" height="92.114" viewBox="0 0 63.116 92.114">
+  <g id="rocket" transform="translate(-80.59)">
+    <path id="Path_1075" data-name="Path 1075" d="M252.017,431.8l-16.033-3.6,3.6,15.077h8.607Z" transform="translate(-127.437 -351.162)" fill="#04303e"/>
+    <path id="Path_1076" data-name="Path 1076" d="M186.9,431.8l3.825,11.476h8.607V428.2Z" transform="translate(-87.183 -351.162)" fill="#07485e"/>
+    <path id="Path_1077" data-name="Path 1077" d="M92.066,317.44,80.59,323.178V294.489l11.476-5.738,3.6,17.214Z" transform="translate(0 -236.802)" fill="#bb664b"/>
+    <path id="Path_1078" data-name="Path 1078" d="M351.209,317.44l11.476,5.738V294.489l-11.476-5.738-3.6,17.214Z" transform="translate(-218.979 -236.802)" fill="#a23310"/>
+    <path id="Path_1079" data-name="Path 1079" d="M259.667,83.164a31.145,31.145,0,0,0-5.232-17.289h-14.85l-3.6,60.912,23.683-3.6Z" transform="translate(-127.437 -54.023)" fill="#fc8965"/>
+    <path id="Path_1080" data-name="Path 1080" d="M149.607,65.875a31.145,31.145,0,0,0-5.232,17.289v40.022l20.082,3.6V65.875Z" transform="translate(-52.309 -54.023)" fill="#fca88d"/>
+    <path id="Path_1081" data-name="Path 1081" d="M239.585,0l-3.6,9.056,3.6,7a27.08,27.08,0,0,0,14.85-4.2A31.151,31.151,0,0,0,239.585,0Z" transform="translate(-127.437)" fill="#a23310"/>
+    <path id="Path_1082" data-name="Path 1082" d="M188.309,0a31.151,31.151,0,0,0-14.85,11.852,27.08,27.08,0,0,0,14.85,4.2Z" transform="translate(-76.161)" fill="#f96332"/>
+    <path id="Path_1083" data-name="Path 1083" d="M250.778,139.2a11.206,11.206,0,0,0-11.193-11.193l-3.6,11.193,3.6,11.193A11.206,11.206,0,0,0,250.778,139.2Z" transform="translate(-127.437 -104.976)" fill="#a23310"/>
+    <path id="Path_1084" data-name="Path 1084" d="M204.977,128.006a11.193,11.193,0,0,0,0,22.387Z" transform="translate(-92.829 -104.976)" fill="#fc8965"/>
+    <path id="Path_1085" data-name="Path 1085" d="M261.8,163.8a5.8,5.8,0,0,0-5.8-5.8V169.6A5.8,5.8,0,0,0,261.8,163.8Z" transform="translate(-143.852 -129.579)" fill="#cde1e6"/>
+    <path id="Path_1086" data-name="Path 1086" d="M229.58,158.006a5.8,5.8,0,0,0,0,11.592Z" transform="translate(-117.432 -129.579)" fill="#ebebf0"/>
+    <path id="Path_1087" data-name="Path 1087" d="M259.667,384.429H239.585l-3.6,5.738,3.6,5.738h20.082Z" transform="translate(-127.437 -315.267)" fill="#cde1e6"/>
+    <path id="Path_1088" data-name="Path 1088" d="M144.376,384.429h20.082V395.9H144.376Z" transform="translate(-52.31 -315.267)" fill="#ebebf0"/>
+  </g>
+</svg>

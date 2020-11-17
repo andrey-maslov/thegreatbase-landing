@@ -1,0 +1,49 @@
+/*************************** Theme Colours****************************/
+
+$accent: #f96332;
+$fontsize: 16px; // Body Font Size
+$system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
+
+$text-color-primary: #1c1e2e;
+$textcolor: lighten($text-color-primary, 25%);
+$text-color-light: lighten($text-color-primary, 40%);
+
+$bg-light: #f6f8fc;
+$bg-primary: $accent;
+$bg-dark: $text-color-primary;
+
+$box-shadow-lg: 0 10px 13px -6px rgba(0, 0, 0, 0.08), 0 20px 31px 3px rgba(0, 0, 0, 0.09), 0 8px 20px 7px rgba(0, 0, 0, 0.02);
+$box-shadow-md: 0 8px 13px rgba(0, 0, 0, 0.1), 0 20px 31px 3px rgba(0, 0, 0, 0.13), 0 8px 20px 7px rgba(0, 0, 0, 0.05);
+
+$border-color:  #efefef;
+$divider-color: #efefef;
+
+$divider: lighten($text-color-primary, 75%);
+
+$smoky-white: #f5f5f5;
+
+$single-col-max: 760px;
+
+$color-tick: #7FCDB8;
+$color-badge: #5cb377;
+
+
+
+
+/*************************** Variables Section. *****************************/
+// Create variables to override the default value for variables used in the Bootstrap SCSS files.
+
+$gray-100: lighten($textcolor, 65%);
+$gray-200: lighten($textcolor, 55%);
+$gray-300: lighten($textcolor, 50%);
+$gray-400: lighten($textcolor, 45%);
+$gray-500: lighten($textcolor, 40%);
+$gray-600: lighten($textcolor, 30%);
+$gray-700: lighten($textcolor, 20%);
+$gray-800: lighten($textcolor, 10%);
+$gray-900: $text-color-primary;
+
+$colors: (
+        "primary":  $accent,
+        "secondary": $textcolor,
+);

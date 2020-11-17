@@ -1,18 +1,15 @@
-<h1>OptimizedHTML 5</h1>
-<p>Lightweight startup HTML5 template, based on Gulp.</p>
+<h1>TheGreatBase front page</h1>
 
 <p>
-	<img src="https://raw.githubusercontent.com/agragregra/oh5/master/app/images/src/preview.jpg" alt="Start HTML Template">
+Package structure based on <a href="https://github.com/agragregra/OptimizedHTML-5/archive/master.zip">OptimizedHTML-5</a>
 </p>
 
-<p><strong>OptimizedHTML 5</strong> - lightweight startup HTML5 template with <strong>Gulp 4</strong>, <strong>Sass/Scss/Less/Stylus</strong>, <strong>Browsersync</strong>, <strong>Autoprefixer</strong>, <strong>Uglify-ES</strong>, <strong>Clean-CSS</strong>, <strong>Rsync</strong>, <strong>CSS Reboot</strong> (Bootstrap reboot). It uses best practices for <strong>responsive images</strong> optimizing and contains a <strong>.htaccess</strong> file for resources caching (images, fonts, HTML, CSS, JS and other content types).</p>
+<h2>How to Start</h2>
 
-<h2>How to use OptimizedHTML 5</h2>
-
-<pre>git clone https://github.com/agragregra/oh5</pre>
+<pre>git clone https://github.com/andrey-maslov/thegreatbase-landing</pre>
 
 <ol>
-	<li>Clone or <a href="https://github.com/agragregra/OptimizedHTML-5/archive/master.zip">Download</a> <strong>OptimizedHTML 5</strong> from GitHub</li>
+	<li>Clone or  from GitHub</li>
 	<li>Install Node Modules: <strong>npm i</strong></li>
 	<li>Run: <strong>gulp</strong></li>
 </ol>
@@ -44,10 +41,6 @@
 		<a href="https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints">_breakpoints.scss</a> - Bootstrap Breakpoints mixin (available only for sass and scss)</li>
 		<li><a href="https://getbootstrap.com/docs/4.0/layout/grid/">bootstrap-grid</a> (optional) - Bootstrap Grid collection</li>
 </ol>
-
-<h2>Caching</h2>
-
-<p>Rename <strong>ht.access</strong> to <strong>.htaccess</strong> before place it in your web server. This file contain rules for htaccess resources caching.</p>
 
 <h2>Helpers</h2>
 

@@ -6,6 +6,12 @@
   border-bottom: 1px solid darken($bg-light, 5%);
 }
 
+.branding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo {
   display: inline-flex;
   align-items: center;
@@ -42,7 +48,7 @@
       color: $text-color-primary;
       text-decoration: none;
       line-height: 2rem;
-      padding: 1rem 2rem ;
+      padding: .7rem 2rem;
       transition: all .2s;
       border-bottom: 1px solid transparent;
 
@@ -85,13 +91,13 @@
     line-height: 1.4;
     margin-bottom: 3rem;
   }
+
   .subheadline {
     font-size: 1.25rem;
     margin-bottom: 3rem;
   }
 
 }
-
 
 
 .benefits-section {
@@ -135,12 +141,15 @@
   .audience {
     max-width: 500px;
   }
+
   .item {
     margin-bottom: 1.5rem;
   }
+
   .item-title {
     font-size: 1.125rem;
   }
+
   .item-icon {
     font-size: 1.25rem;
     color: $color-tick;
@@ -168,14 +177,17 @@
     @include border-radius(50%);
     padding-top: 6px;
   }
+
   .source-profile {
     width: 60px;
   }
+
   .source-info {
     font-size: 0.875rem;
   }
+
   .quote {
-    font-style:italic;
+    font-style: italic;
 
   }
 }
@@ -187,6 +199,7 @@
     width: 150px;
     height: 150px;
   }
+
   .social-list {
     li {
       background: rgba(0, 0, 0, 0.1);
@@ -195,10 +208,12 @@
       display: inline-block;
       @include border-radius(50%);
       padding-top: 6px;
+
       &:hover {
         background: rgba(0, 0, 0, 0.15);
       }
     }
+
     a {
       color: #fff;
     }
@@ -240,7 +255,7 @@
     padding-left: 0;
     margin-bottom: 0;
   }
-  
+
   &-link {
     display: inline-flex;
     align-items: center;
@@ -263,10 +278,13 @@
 
 .lang {
 
-
   &-switcher {
     position: relative;
-    padding: 15px;
+    padding-right: 15px;
+
+    i {
+      transition: all .2s ease-in-out;
+    }
 
     &:hover {
 
@@ -274,15 +292,21 @@
         display: block;
         opacity: 1;
       }
+
+      & i {
+        transform: scaleY(-1);
+      }
     }
   }
 
   &-current {
-    width: 44px;
-    height: 44px;
+    width: 60px;
+    height: 40px;
     border: 1px solid $border-color;
-    line-height: 44px;
+    border-radius: 3px;
+    line-height: 40px;
     text-align: center;
+    font-size: .9rem;
   }
 
   &-list {
@@ -305,9 +329,11 @@
 
     a {
       display: block;
-      padding: .5rem 1rem;
+      padding: 1rem;
       transition: all .2s ease-in-out;
       color: currentColor;
+      min-width: 80px;
+      text-align: center;
 
       &:hover {
         text-decoration: none;
@@ -316,6 +342,75 @@
 
       &.lang-active {
         color: $accent;
+        background-color: $border-color;
+      }
+    }
+  }
+}
+
+
+.mobi-nav {
+  position: relative;
+  padding-left: 15px;
+  display: none;
+
+  i {
+    transition: all .2s ease-in-out;
+  }
+
+
+  &:hover {
+
+    & .mobi-nav-list {
+      display: block;
+      opacity: 1;
+    }
+  }
+
+  &-toggle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $border-color;
+    border-radius: 3px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  &-list {
+    position: absolute;
+    height: auto;
+    top: 54px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: $box-shadow-md;
+    z-index: 3;
+    background-color: #fff;
+    display: none;
+    opacity: 0;
+  }
+
+  &-item {
+
+    &:nth-child(1) {
+
+      a {
+        border-bottom: 1px solid $border-color;
+      }
+    }
+
+    a {
+      display: block;
+      padding: 1rem;
+      min-width: 180px;
+      transition: all .2s ease-in-out;
+      color: currentColor;
+
+      &:hover {
+        text-decoration: none;
         background-color: $border-color;
       }
     }

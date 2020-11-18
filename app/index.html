@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="alternate" hreflang="en-us" href="https://thegreatbase.online" />
+    <link rel="alternate" hreflang="ru-ru" href="https://thegreatbase.online/ru" />
     <title>theGreatBase - Search and evaluation system for candidates</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +14,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="manifest.json">
+
+    <link rel="preload" href="fonts/montserrat-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/montserrat-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/d6e0f8de83.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/app.min.css">
@@ -46,7 +51,7 @@
             <nav class="navbar">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a href="#pricing">Prices</a>
+                        <a href="#pricingTable">Prices</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about">About Us</a>
@@ -69,7 +74,6 @@
                     <li class="lang-item"><a href="/ru">RU</a></li>
                 </ul>
             </div>
-
         </div>
     </div>
 </header>
@@ -85,7 +89,7 @@
                         employee may cost
                     </p>
                     <div class="cta-holder">
-                        <a class="btn btn-primary mr-lg-2" href="#prices">Try it</a>
+                        <a class="btn btn-primary mr-lg-2" href="#pricing">Try it</a>
                         <a class="btn btn-secondary" href="#benefits">Learn More</a>
                     </div>
                 </div>
@@ -207,7 +211,7 @@
             <div class="item media">
                 <div class="item-icon mr-3"><i class="fas fa-user-check"></i></div>
                 <div class="media-body">
-                    <h4 class="item-title">Recruiters</h4>
+                    <h3 class="item-title">Recruiters</h3>
                     <p class="item-desc">
                         Get access to a database of passive candidates, many of whom do not appear in the public domain
                     </p>
@@ -216,7 +220,7 @@
             <div class="item media">
                 <div class="item-icon mr-3"><i class="fas fa-user-check"></i></div>
                 <div class="media-body">
-                    <h4 class="item-title">Human Resource Professionals</h4>
+                    <h3 class="item-title">Human Resource Professionals</h3>
                     <p class="item-desc">
                         Get access to an extensive list of actual profiles with estimated cost
                     </p>
@@ -225,14 +229,14 @@
             <div class="item media">
                 <div class="item-icon mr-3"><i class="fas fa-user-check"></i></div>
                 <div class="media-body">
-                    <h4 class="item-title">For managers</h4>
+                    <h3 class="item-title">For managers</h3>
                     <p class="item-desc">Check knowledge of labor market</p>
                 </div>
             </div>
             <div class="item media">
                 <div class="item-icon mr-3"><i class="fas fa-user-check"></i></div>
                 <div class="media-body">
-                    <h4 class="item-title">For directors of companies</h4>
+                    <h3 class="item-title">For directors of companies</h3>
                     <p class="item-desc">Find out the cost of hiring a team by region in certain technologies</p>
                 </div>
             </div>
@@ -256,7 +260,7 @@
                 individual plan of our cooperation.
             </p>
         </div>
-        <div class="panel pricing-table">
+        <div class="panel pricing-table" id="pricingTable">
 
             <div class="pricing-plan">
                 <div class="pricing-img">
@@ -282,8 +286,7 @@
                     <li class="pricing-features-item">All relevant resumes incoming to the base within three months</li>
                 </ul>
                 <span class="pricing-price">$20 / 3 months</span>
-                <a href="" class="btn btn-primary" target="_blank" rel="noopener noreferref"
-                >
+                <a href="" class="btn btn-primary">
                     Buy
                 </a>
             </div>
@@ -296,8 +299,7 @@
                     <li class="pricing-features-item">All relevant resumes incoming to the base within six months</li>
                 </ul>
                 <span class="pricing-price">$100 / 6 months</span>
-                <a href="https://web.rbsuat.com/ab_by/merchants/salary2.me/payment_ru.html?mdOrder=8ee7d106-5a3e-72f2-9d5a-60dd00b19ce1"
-                   class="btn btn-secondary" target="_blank" rel="noopener noreferref">
+                <a href="" class="btn btn-secondary">
                     Buy
                 </a>
             </div>
@@ -336,20 +338,20 @@
                     <ul class="social-list">
                         <li class="social-item">
                             <a href="https://www.facebook.com/CTI.startup" class="social-link" target="_blank"
-                               rel="noopener noreferref">
+                               rel="noopener noreferref" aria-label="facebook">
                                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="social-item">
                             <a href="https://www.linkedin.com/company/cti-startup" class="social-link"
                                target="_blank"
-                               rel="noopener noreferref">
+                               rel="noopener noreferref" aria-label="linkedin">
                                 <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="social-item">
                             <a href="https://t.me/necodernotes" target="_blank" rel="noopener noreferref"
-                               class="social-link">
+                               class="social-link" aria-label="telegram">
                                 <i class="fab fa-telegram-plane" aria-hidden="true"></i>
                             </a>
                         </li>

@@ -143,4 +143,19 @@
       margin-bottom: 0;
     }
   }
+
+  .mobi-nav-list,
+  .lang-list {
+    top: 50px;
+  }
+
+  .mobi-nav-toggle, .lang-current {
+
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      outline: none;
+    }
+  }
 }

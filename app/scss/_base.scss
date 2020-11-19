@@ -175,8 +175,6 @@ a.theme-link {
   @include gradient-y($bg-light, lighten($bg-light, 10%), $start-percent: 0%, $end-percent: 70%);
 }
 
-
-
 #topcontrol {
   @include transition (all 0.2s ease-in-out);
   background: $text-color-primary;

@@ -29,6 +29,11 @@
   }
 }
 
+button:focus,
+a:focus {
+  outline: 1px solid rgba($text-color-light, .6) !important;
+}
+
 .navbar {
   flex: 1 0 auto;
   margin-right: 2rem;
@@ -57,6 +62,18 @@
         border-color: $accent;
       }
     }
+  }
+}
+
+.dashboard-item {
+  background-color: rgba($accent, .1);
+}
+
+.dashboard-item,
+.signout-item {
+
+  i {
+    margin-right: .7rem;
   }
 }
 
@@ -301,7 +318,7 @@
 
   &-current {
     width: 60px;
-    height: 40px;
+    height: 42px;
     border: 1px solid $border-color;
     border-radius: 3px;
     line-height: 40px;
